@@ -30,6 +30,6 @@ public class UserInterface {
         taxState = sc.nextLine().toUpperCase().trim();
         shoppingList.taxRateCalculation(taxState);
 
-        System.out.println("Your total is: " + shoppingList.total() + ", with the tax rate of: " + shoppingList.getTax() + "%");
+        System.out.println("Your total is: " + shoppingList.total() + ", with the tax rate of: " + shoppingList.getTax() + "%" + " and a discount of: " + shoppingList.getDiscount() + "%");
     }
 }
